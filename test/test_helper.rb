@@ -1,8 +1,8 @@
 require 'minitest/autorun'
-require 'mocha/minitest'
+require 'mocha/setup'
 require 'dummy'
 
-$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+$:.unshift File.expand_path('../../lib', __FILE__)
 require 'breadcrumbs_on_rails'
 
 Encoding.default_external = Encoding::UTF_8

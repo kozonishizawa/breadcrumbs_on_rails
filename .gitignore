@@ -1,11 +1,9 @@
 # Bundler
-/.bundle
-/Gemfile.lock
-/gemfiles/*.gemfile.lock
-/pkg/*
+.bundle
+pkg/*
+Gemfile.lock
+gemfiles/*.gemfile.lock
 
 # YARD
-/.yardoc
-/yardoc/
-
-/.tool-versions
+.yardoc
+yardoc/

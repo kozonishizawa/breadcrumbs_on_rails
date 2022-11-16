@@ -96,10 +96,10 @@ class ExampleHelpersTest < ActionView::TestCase
   include ActionView::Helpers::TagHelper
   include ActionView::Helpers::UrlHelper
 
-  attr_accessor :breadcrumbs_on_rails
+  attr_accessor :breadcrumbs
 
   setup do
-    self.breadcrumbs_on_rails = []
+    self.breadcrumbs = []
   end
 
   def test_render_breadcrumbs
